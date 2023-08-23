@@ -1,1 +1,5 @@
-<h1>SERVICES</h1>
+@extends('layout')
+
+@section('content')
+    <h1>SERVICES</h1>
+@endsection
