@@ -25,6 +25,8 @@ jobs:
         run: npm install
       - name: Node dev
         run: npm run build
+      - name: Artisan start
+        run: php artisan serve
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
