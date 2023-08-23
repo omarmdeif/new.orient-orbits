@@ -65,3 +65,11 @@
     position: relative;
     top: -1px;
   }
+
+  .para {
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    
+  }
